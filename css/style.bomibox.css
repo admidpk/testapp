@@ -1,0 +1,400 @@
+/* CSS Document */
+/* CSS Document */
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Bold.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('../fonts/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+	url('../fonts/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('../fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Medium.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('../fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+	url('../fonts/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('../fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Light.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('../fonts/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+	url('../fonts/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('../fonts/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('../fonts/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+	url('../fonts/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('../fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/eot/IRANSansWeb(FaNum).eot');
+	src: url('../fonts/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+	url('../fonts/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+	url('../fonts/woff/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	url('../fonts/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+body .ui-body-c,.ui-bar-a
+{
+	font-family: IRANSans;
+}
+.logo-big
+{
+	width: 100%;
+	min-width:50px;
+	max-width:300px;
+	height:auto;
+	margin:0 auto;
+	margin-top: 10%;
+}
+.form-wd-basic
+{
+	width: 88%;
+	margin-top: 40px;
+}
+.form-wd-basic input
+{
+	height: 28px;
+	max-width: 300px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+	border:2px solid #00a24b;
+}
+.form-wd-basic .btn-wd
+{
+	width: 100%;
+	max-width: 335px;
+	background: #00a24b;
+	border:1px solid #00a24b;
+	border-radius: 25px;
+	color: #ffffff;
+	margin: 25px 0;
+	text-shadow: none;
+	font-family: IRANSans;
+}
+.form-wd-basic .text-end-form
+{
+	font-size: 16px;
+	color:#9499a0;
+}
+.form-wd-basic .text-end-form a
+{
+	text-decoration: none;
+	color: #5e6568;
+}
+.ui-bar-a
+{
+	background: #00a24b;
+	border-color: #00a24b;
+	text-shadow: none;
+}
+.btn-menu-bars
+{
+	float: right;
+}
+.ui-btn-up-a
+{
+	background:none;
+	border: none;
+}
+.ui-header .ui-btn-icon-notext
+{
+	top:12px;
+	right:15px;
+}
+.ui-panel.ui-body-c
+{
+	background: #00a24b;
+	opacity: 1;
+}
+.body-wd
+{
+	direction: rtl;
+	max-width: 400px;
+	margin:0 auto;
+}
+.body-wd-blog
+{
+	max-width: 600px;
+}
+.body-wd h2
+{
+	font-size: 22px;
+}
+.body-wd p
+{
+	text-align: justify;
+	color:#7b7d7f;
+	font-size: 15px;
+}
+.ui-grid-a .ui-block-a .ui-bar-a,
+.ui-grid-a .ui-block-b .ui-bar-a
+{
+	background: none;
+	color:#6b757a;
+	border:none;
+	text-align: center;
+}
+.ui-grid-a .box-home
+{
+	border:3px solid #00a24b;
+	padding: 10px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.ui-grid-a .box-home img
+{
+	width: 75%;
+	height:auto;
+	margin: 0 auto;
+}
+.ui-grid-a .box-home a
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	right: 0;
+	top:0;
+}
+.ui-grid-a .box-home h3
+{
+	width: 100%;
+	text-align: center;
+}
+.body-wd h2
+{
+	color:#00a24b;
+}
+#mainPanel
+{
+direction: rtl;
+}
+#mainPanel h2
+{
+	color:#ffffff;
+	text-shadow: none;
+}
+#mainPanel ul
+{
+	list-style: none;
+	padding:0 10px;
+}
+#mainPanel ul li
+{
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	text-shadow: none;
+	padding: 10px 10px;
+}
+#mainPanel ul li a
+{
+	color:#ffffff;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+.ui-grid-a .box-craft
+{
+	margin-bottom: 15px;
+	background: #ffffff;
+	position: relative;
+	text-align: right;
+	box-shadow: 1px 1px 5px 2px #d7d7d7;
+}
+.ui-grid-a .box-craft img
+{
+	width: 100%;
+}
+.ui-grid-a .box-craft a
+{
+	text-decoration: none;
+	color:#575757;
+	margin: 0 6px 6px 6px;
+	font-weight: normal;
+}
+.ui-grid-a .box-craft ul
+{
+	list-style: none;
+	padding:0;
+	position: relative;
+	right: 6px;
+	bottom: 10px;
+}
+.ui-grid-a .box-craft ul li
+{
+	margin-left: 20px;
+	display: inline-block;
+	font-weight: normal;
+	font-size: 13px;
+}
+.ui-grid-a .box-craft ul li i
+{
+	opacity: 0.6;
+}
+.ui-grid-a .box-craft ul li div
+{
+	width: 50px;
+	float: right;
+}
+.craft-detail
+{
+	margin-top: -15px;
+	background-color: #ffffff;
+}
+.craft-detail img
+{
+	width: 100%;
+}
+.craft-detail h3
+{
+	text-align: center;
+}
+.craft-detail p
+{
+	margin: 0 13px;
+}
+.craft-detail ul
+{
+	list-style: none;
+	padding:0;
+}
+.craft-detail ul li
+{
+	display: inline-block;
+}
+.craft-detail ul.view
+{
+	width: 175px;
+	height:auto;
+	margin: 5px auto;
+}
+.craft-detail ul.view li
+{
+	margin-left: 10px;
+	color:#a7a7a7;
+}
+.craft-detail ul.info
+{
+	width: 100%;
+}
+.craft-detail ul.info li
+{
+	width: 32%;
+	text-align: center;
+	border-left: 1px solid #cccccc;
+	font-weight: normal;
+}
+.craft-detail ul.info li:last-child
+{
+	border-left: none;
+}
+.craft-detail ul.info li span
+{
+	color:#babbbb;
+	font-weight: normal;
+}
+.ui-navbar-wd
+{
+	width: 100%;
+}
+.ui-navbar-wd ul
+{
+	position: relative;
+	top:10px
+}
+.ui-navbar-wd ul li
+{
+	width: 49.4%;
+	height: 47px;
+	text-align: center;
+	border-bottom: 2px solid #cccccc;
+	border-top: 2px solid #cccccc;
+}
+.ui-navbar-wd ul li:first-child
+{
+	position: relative;
+	right: 2px;
+}
+.ui-navbar-wd ul li:last-child
+{
+	position: relative;
+	left: 2px;
+}
+.ui-navbar-wd ul li a
+{
+	position: absolute;
+	width: 100%;
+	height:100%;
+	right:0;
+	text-shadow: none;
+	top:0;
+	padding:10px 0;
+	text-decoration: none;
+	font-weight: 100;
+}
+.ui-navbar-wd ul li.ui-btn-active-wd
+{
+	background-color: #00a24b;
+	border-color: #00a24b;
+}
+.ui-navbar-wd ul li.ui-btn-active-wd a
+{
+	color:#ffffff;
+	text-shadow: none;
+	font-weight: normal;
+}
+.body-wd .box-tab
+{
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	padding-bottom: 30px;
+}
+.body-wd .wd-tab-1 img
+{
+	width: 100%;
+}
+.body-wd .wd-tab-1 h5
+{
+	margin:10px auto;
+	text-align: center;
+	padding-top: 12px;
+	color:#0ca469;
+}
+.body-wd .wd-tab-1 p
+{
+	margin:0 13px;
+	color:#808080;
+}
+.body-wd .wd-tab-2 ul.box-ul
+{
+	list-style: none;
+	padding:0;
+}
+.body-wd .wd-tab-2 ul.box-ul li
+{
+	padding: 10px 20px;
+	border-bottom: 2px solid #aeaeae;
+}
+.body-wd .wd-tab-2 ul.box-ul li a
+{
+	text-shadow: none;
+	text-decoration: none;
+	color:#5b5b5b;
+}
